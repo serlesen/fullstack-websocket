@@ -1,0 +1,8 @@
+<div style="text-align:center">
+  <h1>Welcome to !</h1>
+
+  <button class="btn btn-default" (click)="connect()" >Connect</button>
+  <button class="btn btn-default" (click)="disconnect()" >Disconnect</button>
+</div>
+
+<app-messages *ngIf="state === 'connected'"/>
